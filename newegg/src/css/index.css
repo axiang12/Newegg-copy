@@ -1,0 +1,1012 @@
+.topbar{
+	width: 100%;
+	background-color: #F1F1F1;
+	color: #666;
+}
+.top_inner{
+	width: 1200px;
+	height: 24px;
+	margin: 0 auto;
+	font-size: 12px;
+	background-color: #F1F1F1;
+}
+/*top  左边图标*/
+.top_inner .left_lo li{	
+	float: left;
+}
+.top_inner .left_lo li a{
+	display: block;
+	padding-left: 20px;
+	line-height:24px;
+}
+.top_inner .left_lo .phone{
+	background: url(img/topbar_sprite.png) no-repeat 8px 8px;
+}
+.top_inner .left_lo .tuangou{
+	margin:0 5px;
+	background: url(img/topbar_sprite.png) no-repeat 4px -127px;
+}
+/*top  右边内容*/
+.top_inner .right_lo{
+	width: 506px;
+	height: 24px;
+	float: right;
+}
+
+.top_inner .right_lo .r1{
+	width: 215px;
+	height: 24px;
+	float: left;
+}
+.top_inner .right_lo li{
+	float: left;
+}
+.top_inner .right_lo .r1 li a{
+	display: block;
+	line-height:24px;
+}
+.top_inner .right_lo .r1 li a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.top_inner .right_lo li span{
+	display: block;
+	line-height:24px;
+}
+.top_inner .right_lo li p{
+	display: block;
+	line-height:24px;
+}
+
+/* 我的新蛋  我的订单 客户服务 */
+.top_inner .right_lo .r2{
+	float: left;
+	margin-left: 10px;
+	/*background-color: #fff;*/
+	position: relative;
+}
+.top_inner .right_lo .r2 li{
+	float: left;	
+}
+.top_inner .right_lo .r2 a{
+	display: block;
+	padding-right: 10px;
+	margin-right: 8px;
+	line-height: 24px;
+}
+.top_inner .right_lo .r2 .jiantou{
+	position: relative;
+	background: url(img/jiantou.png) no-repeat 52px -12px;
+}
+.top_inner .right_lo .r2 .L2:hover{
+	background-color: #fff;
+}
+/*我的新蛋  弹出小框*/	
+.top_inner .right_lo .r2 .top_tip{
+	display: none; 
+	width: 100px;
+	height: 40px;
+	background-color: #fff;
+	/*border:1px solid gray;*/
+	position: absolute;
+	top: 24px;
+	right: 138px;
+	text-align: center;
+	line-height: 40px;
+	z-index: 88;
+	box-shadow: -5px 5px 3px #888888; 
+}
+.top_inner .right_lo .L2:hover .top_tip{
+	display: block;
+}
+.top_inner .right_lo .r2 .top_tip2{
+	display: none; 
+	width: 150px;
+	height: 60px;
+	background-color: #fff;
+	/*border:1px solid gray;*/
+	position: absolute;
+	top: 24px;
+	right: 0px;
+	text-align: center;
+	line-height: 60px;
+	z-index: 88;
+	box-shadow: -5px 7px 3px #888888; 
+}
+.top_inner .right_lo .L2:hover .top_tip2{
+	display: block;
+}
+
+/*logo 头部*/
+.header{
+	width: 1200px;
+	height: 86px;
+	margin: 0 auto;
+	/*background-color: gray;*/
+	position: relative;
+}
+.header .logo{
+	width: 318px;
+	height:65px;
+	background: url(img/logocn.png) no-repeat;
+	float: left;
+	margin-left: 4px;
+	margin-top: 11px;
+	cursor: pointer;
+}
+
+/* ******中间搜索框******  */
+.header .h_center{
+	float: left;
+	margin-left: 50px;
+	margin-top: 18px;
+}
+.header .h_center .search{
+	width: 439px;
+	height: 34px;
+	float: left;
+}
+.header .h_center .search .searchbar{
+	float: left;
+	border:2px solid #f60;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+.header .h_center .search .searchbar input{
+	line-height: 30px;
+	text-indent: 6px;
+	border:0;
+	width: 330px;
+	font-size: 14px;
+/*	background: none;*/
+}
+.header .h_center .search .btn{
+	width: 98px;
+    height: 34px;
+    background: #f60;
+    color: #fff;
+    text-indent: 0;
+    font: bolder 14px/34px simsun;
+    text-align: center;
+    float: left;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.header .h_center .search .hot{
+	margin-top: 4px;
+	line-height: 29px;
+	color: #767676;
+	font-size: 12px;
+}
+.header .h_center .search .hot li{
+	float: left;
+	line-height: 34px;
+	margin-left: 5px;
+}
+.header .h_center .search .hot li a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.header .h_center .search .hot span{
+	font-weight: normal;
+	margin-left: 5px;
+	display: inline-block;
+}
+/*  logo栏  七天  tubioa*/
+.header .sevenday{
+	float: right;
+	width: 225px;
+	height: 86px;
+	background: url(img/sevenday.png) no-repeat;
+	cursor: pointer;
+	position: relative;
+}
+/*-------------logo  栏结束------*/
+/*导航栏  nav 开始  menu*/
+.nav{
+	width: 100%;
+	background-color: #10286C;
+}
+.nav .menu_inner{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+
+
+
+/* 导航菜单*/
+.nav .menu_inner .menu_nav{
+	width: 650px;
+	float: left;
+	margin-left: 10px;
+	letter-spacing: 1px;
+/*	border:1px solid red;*/
+	/*position: relative;*/
+}
+.nav .menu_inner .menu_nav ul li{
+	float: left;
+}
+.nav .menu_inner .menu_nav li a{
+	display: block;
+	padding:0 19px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+}
+.nav .menu_inner .menu_nav li a:hover{
+	cursor: pointer;
+	background-color: #295dd7;
+}
+/*导航右边栏*/
+.nav .menu_mine{
+	float: right;
+	width: 230px;
+	height: 40px;
+	background-color: #FF6600;
+}
+.nav .menu_mine a{
+	color: #fff;
+	font-weight: normal;
+	display: block;
+}
+
+.nav .menu_mine .shop{
+	float: left;
+	width: 116px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+/*shop  弹出框------------------------------有问题 已解决  .shop:hover a{}---*/
+.nav .menu_mine .shop .goumai{
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: -2px;
+	width: 232px;
+	height: 70px;
+	line-height: 70px;
+	border:2px solid #ff6600;
+	border-top: 0;
+	color: #999;
+}
+.nav .menu_mine .shop:hover a{
+	color: #999 !important;
+	border-top: 2px solid #ff6600;
+	border-left:  2px solid #ff6600;
+	background-color: white;
+}
+.nav .menu_mine .shop:hover .goumai{
+	display: block;
+	z-index: 99;
+	color: #999;
+	background-color: #fff;
+}
+
+
+/* |  线*/
+.nav .menu_mine s{
+	float: left;
+	display: block;
+	width: 4px;
+	height: 30px;
+	background: url(img/sprite_v.png) no-repeat -26px 14px;
+}
+/*mark*/
+.nav .menu_mine .mark{
+	float: right;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+}
+/*mark 收藏弹出框*/
+.nav .menu_mine .mark .shoucang{
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: -122px;
+	width: 228px;
+	height: 70px;
+	line-height: 70px;
+	border:2px solid orange;
+	border-top: 0;
+	color: #999;
+}
+
+.nav .menu_mine .mark:hover a{
+	color: #999 !important;
+	border-top: 2px solid #ff6600;
+	border-right:  2px solid #ff6600;
+	background-color: white;
+}
+.nav .menu_mine .mark:hover .shoucang{
+	display: block;
+	z-index: 99;
+	color: #999;
+	background-color: #fff;
+}
+/*nav  导航右栏结束*/
+
+/*  全部分类商品 开始*/
+.nav .menu_inner .menu_lei{
+	
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+/*全部分类商品 处理*/
+.nav .menu_inner .menu_lei h2{
+	width: 179px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background-color: #FF6600;
+}
+/* 全部分类商品  下拉栏 */
+.nav .menu_inner .menu_lei .menu_list{
+	position: absolute;
+	top: 40px;
+	left: -2px;
+	z-index: 99;
+	border:2px solid #ff6600;
+	width: 177px;
+}
+.nav .menu_inner .menu_lei .menu_list li {
+	height: 76px;
+	border-bottom: 1px solid #e5e5e5;
+	margin: 0 auto;
+}
+.nav .menu_inner .menu_lei .menu_list li a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+/*---------商品下拉栏中 li 的 m1  里面的内容 */
+.nav .menu_inner .menu_lei .menu_list li .m1{
+	padding-top: 10px;
+	/*padding-left: 5px;*/
+}
+.nav .menu_inner .menu_lei .menu_list li .m1 span{
+	margin-left: 7px;
+}
+.nav .menu_inner .menu_lei .menu_list li .m1 strong{
+	font-weight: bold;
+}
+/*飞机图标*/
+.nav .menu_inner .menu_lei .menu_list li .m1 .feiji{
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background:url(img/banner_sprit.png) no-repeat 0px 0px;
+}
+/*手机图标*/
+.nav .menu_inner .menu_lei .menu_list li .m1 .shouji{
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background:url(img/banner_sprit.png) no-repeat 3px -20px;
+}
+/*电脑图标*/
+.nav .menu_inner .menu_lei .menu_list li .m1 .diannao{
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background:url(img/banner_sprit.png) no-repeat 1px -43px;
+}
+/*家电*/
+.nav .menu_inner .menu_lei .menu_list li .m1 .jiadian{
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background:url(img/banner_sprit.png) no-repeat 3px -64px;
+}
+/*生活用品*/
+.nav .menu_inner .menu_lei .menu_list .live{
+	height: 168px;
+	/*border-bottom: 1px solid gray;*/
+	margin: 0 auto;
+}
+.nav .menu_inner .menu_lei .menu_list li .m2 .shenghuo{
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background:url(img/banner_sprit.png) no-repeat 0px -84px;
+}
+/*-图标设置  完成-*/
+
+.nav .menu_inner .menu_lei .menu_list li .m1 a{
+	width: 56px;
+	height: 19px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #333;
+}
+.nav .menu_inner .menu_lei .menu_list .m1 .lei{
+	padding-left: 19px;
+	padding-top: 8px;
+
+}
+.nav .menu_inner .menu_lei .menu_list .m1 .lei1 a{
+	line-height: 18px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #666 !important;
+	padding-left: 6px;
+}
+/*  全部商品 最下面生活用品*/
+/*全部商品 最下面生活用品  另外写  a 放在 p 里面  一排一个p*/
+/*使用定位做*/
+.nav .menu_inner .menu_lei .menu_list li .m1 a{
+	width: 56px;
+	height: 19px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #333;
+}
+.nav .menu_inner .menu_lei .menu_list .live .m2 .lei2 p{
+	padding-top: 6.5px;
+}
+.nav .menu_inner .menu_lei .menu_list li .m2{
+	padding-top: 10px;
+	position: relative;
+}
+.nav .menu_inner .menu_lei .menu_list .m2 .lei2{
+	width: 177px;
+
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	text-align: center;
+
+}
+
+/*下面 的全部商品内容与 前面设置无关*/
+
+/*---------------------------------商品下拉栏  弹出框-----------*/
+/*全部以ul(menu_list)  为定位原点*/
+.nav .menu_inner .menu_lei .menu_list{
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.nav .menu_inner .menu_lei .menu_list .lei3{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+/*每一个 li(father) 为点击点  */
+.nav .menu_inner .menu_lei .menu_list .li:hover {
+	background-color: #f1f1f1;
+	box-shadow: 3px 8px 5px #ddd;
+}
+
+/*设置每一个 detail 框的 元素和  位置*/
+.nav .menu_lei .menu_list .li .detail,.detail1{
+	display: none;
+	width: 788px;
+	height: 480px;
+	border:1px solid #cfcfcf;
+	background-color: #fff;
+	z-index: 999;
+	box-shadow: 2px 3px 5px #7d7d7d;
+}
+.nav .menu_lei .menu_list .li .detail{
+	position: absolute;
+	top: -3px;
+	left: 170px;
+}
+.nav .menu_lei .menu_list .li .detail1{
+	position: absolute;
+	top: -345px;
+	left: 170px;
+}
+/*以下的  detail2  detail3  本来是为了设置不同位置  */
+/* 但是 由于设置的原点是一样的  都以  ul 爷爷为原点 所以原点位置不会改变*/
+/*
+.nav .menu_lei .menu_list li .detail1{
+	
+}
+.nav .menu_lei .menu_list li .detail2{
+	position: absolute;
+	top: -130px;
+	left: 170px;
+}
+.nav .menu_lei .menu_list li .detail3{
+	position: absolute;
+	top: -3px;
+	left: 170px;
+}*/
+/*鼠标触碰到 li  都会出现对应的  .detail  框*/
+.menu_lei .menu_list .li:hover .detail{
+	display: block;
+}
+.menu_lei .menu_list .li:hover .detail1{
+	display: block;
+}
+/*
+.menu_lei .menu_list li:hover .detail2{
+	display: block;
+}
+.menu_lei .menu_list li:hover .detail3{
+	display: block;
+}
+.menu_lei .menu_list li:hover .detail4{
+	display: block;
+}*/
+/*  点击li 后 detail框结束  勿删*/
+
+/*----------------开始设置每个框里面的内容*/
+.menu_lei .menu_list .neirong .ji{
+	margin: 15px 0px;
+	width: 750px;
+	height: 450px;
+}
+.menu_lei .menu_list .neirong .ji li{
+	height: 50px;
+	width: 750px;
+	border-bottom: 0;
+	word-wrap: break-word;
+}
+.menu_lei .menu_list .neirong .ji li span{
+	display: inline-block;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.menu_lei .menu_list .neirong .ji li a{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	font-size: 12px;
+}
+
+/*--全部商品分类结束-----*/
+
+/*---------content  开始------------*/
+/*上部分内容开始*/
+.content{
+	width: 100%;
+	/*background-color: pink;*/
+	/*height: 1200px;*/
+	padding-top: 10px;
+	position: relative;
+}
+.content .c_inner{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.content .c_inner .session{
+	width: 771px;
+	height: 460px;
+	/*background-color: red;*/
+	position: absolute;
+	left: 189px;
+	float: left;
+}
+.content .c_inner .session .s_shang{
+	display: block;
+	width: 771px;
+	height: 245px;
+	background:url(img/banner3.jpg) no-repeat ;
+}
+.content .c_inner .session .huayuan{
+	position: relative;
+}
+.content .c_inner .session .yuand ul{
+	position: absolute;
+	width: 280px;
+	height: 26px;
+	right:  8px;
+	bottom: 10px;
+}
+.content .c_inner .session .yuand ul li{
+	width: 23px;
+	height: 23px;
+	line-height: 20px;
+	border-radius: 18px;
+	float: right;
+	margin-right: 5px;
+	background-color: #737373;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.content .c_inner .session .yuand ul li:hover{
+	cursor: pointer;
+	background-color:#ff6600;
+}
+
+/*session  下部分*/
+.content .c_inner .session .s_xia{
+	width: 771px;
+	height: 203px;
+	/*background-color: #eee;	*/
+	margin-top: 12px;
+}
+.content .c_inner .session .s_xia .more{
+	height: 24px;
+	/*background-color:yellow;*/
+}
+.content .c_inner .session .s_xia .more .timer{
+	float: left;
+	padding-left: 200px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.content .c_inner .session .s_xia .more h4{
+	float: left;
+	font-size: 16px;
+	color: #bf1313;
+	line-height: 24px;
+	padding-left: 7px;
+}
+.content .c_inner .session .s_xia .more a{
+	float: right;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+/* s_xia  tupian"proslider"*/
+.content .c_inner .session .s_xia .proslider{
+	width: 771px;
+	height: 173px;
+	/*background-color: blue;*/
+	margin-top: 10px;
+	margin: 0 auto;
+}
+/*--- s_xia  图片*/
+.content .c_inner .session .proslider .picture {
+	width: 744px;
+	height: 173px;
+	/*background-color: pink;*/
+	float: left;
+	margin-top: 10px;
+}
+.content .c_inner .session .proslider .picture ul li{
+	width: 150px;
+	height: 173px;
+	/*border:1px solid red;*/
+	margin: 0 17px;
+	float: left;
+}
+
+.content .c_inner .session .proslider .picture ul li .p_tupian{
+	width: 150px;
+	height: 108px;
+	background: url(img/pp1.jpg) no-repeat;
+	margin:0 3px;
+}
+.content .c_inner .session .proslider .picture ul li .t2{
+	background: url(img/pp2.jpg) no-repeat;
+}
+.content .c_inner .session .proslider .picture ul li .t3{
+	background: url(img/pp3.jpg) no-repeat;
+}
+.content .c_inner .session .proslider .picture ul li .t4{
+	background: url(img/pp4.jpg) no-repeat;
+}
+.content .c_inner .session .proslider .picture ul li .p_jianjie {
+	width: 150px;
+	height: 37px;
+}
+.content .c_inner .session .proslider .picture ul li .p_jianjie a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 12px;
+	overflow: hidden;
+	margin:6px 0px;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+	font-family: "微软雅黑";
+}
+.content .c_inner .session .proslider .picture ul li a:hover{
+	text-decoration: underline;
+}
+.content .c_inner .session .proslider .picture ul li .p_price{
+	width: 150px;
+	font-size: 14px;
+	text-align: left;
+	color: #FF6600;
+	font-weight: bold;
+	padding: 5px 0px 0px 5px;
+}
+
+
+/*压盖*/
+.content .c_inner .session .s_xia .proslider .yagai{
+	width: 13.5px;
+	height: 173px;
+	/*background-color: yellow;*/
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+/*做三角形*/
+.sanjiao{
+	width: 9px;
+	height: 16px;
+	background: url(img/sanjiao.png) no-repeat 0 -17px;
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+}
+.content .c_inner .session .s_xia .proslider .yagai2{
+	width: 13.5px;
+	height: 173px;
+	/*background-color: yellow;*/
+	float: right;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.sanjiao2{
+	width: 9px;
+	height: 16px;
+	background: url(img/sanjiao.png) no-repeat -9px -17px;
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+}
+
+/*------上部分 图片 结束--------------*/
+
+/*上部分 侧栏  开始*/
+.content .c_inner .aside{
+	width: 230px;
+	height: 470px;
+	float: right;
+	/*background-color: tan;*/
+	margin-left: 10px;
+}
+.content .c_inner .aside .s1{
+	display: block;
+	width: 230px;
+	height: 241px;
+	background: url(img/s1.jpg) no-repeat;
+}
+/*圆点*/
+.content .c_inner .aside .huayuan2{
+	position: relative;
+}
+.content .c_inner .aside .yuand2 ul{
+	position: absolute;
+	width: 100px;
+	height: 16px;
+	left:  8px;
+	top: 10px;
+}
+.content .c_inner .aside .yuand2 ul li{
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	border-radius: 6px;
+	float: left;
+	margin-right: 4px;
+	background-color: #d9d9d9;
+}
+/*---------------------------------默认圆点有问题----------------*/
+.content .c_inner .aside .yuand2 ul li:hover,.content .c_inner .aside .yuand2 .active1{
+	cursor: pointer;
+	background-color:#ff6600;
+}
+/*左侧栏图片*/
+.content .c_inner .aside .s2{
+	display: block;
+	width: 230px;
+	height: 218px;
+	background: url(img/s2.jpg) no-repeat;
+	margin-top: 10px;
+}
+
+/*上部分 侧栏  结束*/
+
+
+/*----------------主体 开始--------------*/
+.body{
+	width: 1200px;
+	/*height: 1200px;*/
+	/*background-color: yellow;*/
+	margin: 0 auto;
+	margin-top: 40px;
+
+}
+
+/*  热卖区 */
+.body .b_hot{
+	width: 960px;
+	height: 287px;
+	/*background-color: tan;*/
+	float: left;
+}
+.body .b_hot h2{
+	height: 38px;
+	font-size: 20px;
+	line-height: 36px;
+	float: left;
+	color: #ff6600;
+	font-weight: bold;
+	/*border-bottom: 2px solid #FF6600;*/
+}
+.body .b_hot .hot_title{
+	float: right;
+	width: 880px;
+	height: 18px;
+	margin-top:10px;
+	font-size: 14px;
+	padding-left: 16px;
+	background: url(img/hot_flash.png) no-repeat 0 2px;
+}
+.body .b_hot .hot_title a{
+	float: left;
+	width: 52px;
+	height: 18px;
+	line-height: 18px;
+	color: #666;
+}
+.body .b_hot .hot_title a:hover{
+	text-decoration: underline;
+}
+.body .b_hot .hot_title span{
+	float: right;
+	color: #666;
+}
+/*热卖区图片*/
+.body .b_hot .hot_pic{
+	width: 958px;
+	height: 236px;
+	border:1px solid #dadada;
+	border-top: 4px solid #ff6600;
+}
+.body .b_hot .hot_pic ul li{
+	width: 196px;
+	height: 199px;
+	padding:15px 19px 16px 24px;
+	/*border-right:1px solid #ff6600;*/
+	float: left;
+}
+.content .body .b_hot .hot_pic ul li .p_tupian{
+	width: 196px;
+	height: 135px;
+	background: url(img/h1.jpg) no-repeat;
+	margin:0 3px;
+}
+
+.content .body .b_hot .hot_pic ul li .p_jianjie {
+	width: 196px;
+	height: 37px;
+	line-height: 20px;
+	overflow: hidden;
+	margin:4px 0px;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+	float: left;
+}
+.content .body .b_hot .hot_pic ul li a:hover{
+	text-decoration: underline;
+}
+.content .body .b_hot .hot_pic ul li .t2{
+	background: url(img/h2.jpg) no-repeat;
+}
+.content .body .b_hot .hot_pic ul li .t3{
+	background: url(img/h3.jpg) no-repeat;
+}
+.content .body .b_hot .hot_pic ul li .t4{
+	background: url(img/h4.jpg) no-repeat;
+}
+.content .body .b_hot .hot_pic ul li .p_price{
+	width: 100px;
+	height: 21px;
+	line-height: 21px;
+	padding-top:4px; 
+	font-size: 14px;
+	text-align: left;
+	color: #FF6600;
+	font-weight: bold;
+	margin-left: 10px;
+	float: left;
+}
+
+.content .body .b_hot .hot_pic ul li .rob{
+	display: block;
+	float: left;
+	height: 15px;
+	line-height: 23px;
+	font: normal 12px simsun;
+	background-color: #eb4901;
+    border: 1px solid #eb4901;
+  	border-radius: 2px;
+    color: #fff;
+    padding: 4px 10px;
+    margin:5px;
+}
+.content .body .b_hot .hot_pic ul li .biaozhi{
+	display: block;
+	width: 52px;
+	height: 52px;
+	background: url(img/bao.png) no-repeat;
+	float: right;
+}
+.content .body .b_hot .hot_pic ul li .bz2{
+	background: url(img/bao2.png) no-repeat;
+}
+.content .body .b_hot .hot_pic ul li .bz3{
+	background: url(img/bao3.png) no-repeat;
+}
+/*主体  左侧栏 部分*/
+.body .b_side{
+	width: 230px;
+	height: 272px;
+	/*background-color: red;*/
+	float: right;
+	margin-top: 10px;
+}
+.body .b_side .s_dongtai{
+	width: 230px;
+	height: 86px;
+	border:1px solid #d9d9d9;
+	padding:10px 0;
+}
+.body .b_side .s_dongtai .new_title{
+	width: 208px;
+	height: 18px;
+	border-bottom: 1px dashed #d9d9d9;
+	padding: 0 10px 5px 10px;
+	margin-bottom: 8px;
+
+}
+.body .b_side .s_dongtai .new_title h4{
+	float: left;
+	font: bolder 14px simusn;
+    color: #666;
+    margin: 0 0 10px 0;
+}
+.body .b_side .s_dongtai .new_title a{
+	float: right;
+	font: 12px simsun;
+    margin: 3px 10px 0 10px;
+}
+.body .b_side .s_dongtai .new_title a:hover{
+	text-decoration: underline;
+}
+.body .b_side .s_dongtai .new_list li{
+	width: 208px;
+	height: 14px;
+	font-size: 12px;
+	text-align: left;
+	padding: 0 10px;
+	margin-bottom: 6px;
+}
+/*body  侧栏 下部广告*/
+.body .b_side .s_adv{
+	margin-top: 17px;
+	width: 230px;
+	height: 123px;
+	background: url(img/s_adv.jpg) no-repeat;
+
+}

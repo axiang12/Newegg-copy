@@ -1,0 +1,37 @@
+.cl{
+	clear: both;
+}
+.f12{
+	font-size: 12px;
+}
+.f14{
+	font-size: 14px;
+}
+.color6{
+	color: #666;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pl10{
+	padding-left: 10px;
+}
+.pl5{
+	padding-left: 5px;
+}
+.pl15{
+	padding-left: 15px;
+}
+.pr15{
+	padding-right: 7px;
+}
+.ff{
+	font-family: "微软雅黑";
+}
+.mr0{
+	margin-right: 0px;
+}
